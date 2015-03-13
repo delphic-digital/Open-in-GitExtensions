@@ -1,0 +1,41 @@
+[{
+	"caption": "Git Extensions",
+	"children":
+	[{
+		"caption" : "Browse...",
+		"command": "git_extensions_browse",
+		"args": { "paths": []}
+	},{
+		"caption" : "Commit...",
+		"command": "git_extensions_commit",
+		"args": { "paths": []}
+	},{
+		"caption" : "Pull...",
+		"command": "git_extensions_pull",
+		"args": { "paths": []}
+	},{
+		"caption" : "Push...",
+		"command": "git_extensions_push",
+		"args": { "paths": []}
+	},{
+		"caption" : "Checkout...",
+		"command": "git_extensions_checkout",
+		"args": { "paths": []}
+	},{
+		"caption" : "Merge...",
+		"command": "git_extensions_merge",
+		"args": { "paths": []}
+	},{
+		"caption" : "Reset...",
+		"command": "git_extensions_reset",
+		"args": { "paths": []}
+	},{
+		"caption" : "Branch...",
+		"command": "git_extensions_branch",
+		"args": { "paths": []}
+	},{
+		"caption" : "History...",
+		"command": "git_extensions_history",
+		"args": { "paths": []}
+	}]
+}]
