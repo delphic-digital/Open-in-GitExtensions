@@ -9,7 +9,7 @@ class git_extensions_browse(sublime_plugin.WindowCommand):
 
 class git_extensions_pull(sublime_plugin.WindowCommand):
   def run(self, paths):
-    args = [ 'pull', "%s" % paths[0]]
+    args = [ 'pull', "%s" % paths[0],'--merge', '--quiet']
     Popen(['GitExtensions'] + args)
     return None
 
@@ -42,13 +42,13 @@ class git_extensions_push(sublime_plugin.WindowCommand):
     args = [ 'push', "%s" % paths[0]]
     Popen(['GitExtensions'] + args)
     return None
-    
+
 class git_extensions_branch(sublime_plugin.WindowCommand):
   def run(self, paths):
     args = [ 'branch', "%s" % paths[0]]
     Popen(['GitExtensions'] + args)
     return None
-      
+
 class git_extensions_reset(sublime_plugin.WindowCommand):
   def run(self, paths):
     args = [ 'reset', "%s" % paths[0]]
